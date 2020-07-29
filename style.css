@@ -3,20 +3,23 @@
     margin: 0;
 }
 
+html{
+    background: url(./assets/images/custom\ –\ 2.svg) no-repeat;
+    background-size: 100% 100%;
+}
+
 body{
-    width: 100%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
     font-family: Baloo-regular;
     border: 1px solid #CCCCCC;
-    background-image: url(/assets/images/custom\ –\ 2.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:center ;
+    margin: auto;
     font-family: Baloo-regular;
     margin-top: 100px;
 }
@@ -25,6 +28,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 100px;
 }
 
 .name-profession h1{
@@ -44,10 +48,11 @@ body{
 }
 
 .img{
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
     height: 359px;
     width: 359px;
+    margin-left: 200px;
     background-image: url(/assets/images/perfil.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,6 +60,10 @@ body{
 
 .main-content{
     display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin: auto;
+    width: 1500px;
 }
 
 .section-content{
@@ -96,11 +105,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid #CCCCCC; */
     padding: 20px;
     padding-top: 200px;
-    width: 100%;
-    /* background-color: #E5EEF4; */
     color: #707070;
 }
 
