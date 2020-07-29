@@ -10,7 +10,7 @@ body{
     border: 1px solid #CCCCCC;
     background-image: url(/assets/images/custom\ –\ 2.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .header{
