@@ -4,10 +4,13 @@
 }
 
 body{
-    width: 70vw;
+    width: 100%;
     margin: auto;
     font-family: Baloo-regular;
     border: 1px solid #CCCCCC;
+    background-image: url(/assets/images/custom\ –\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header{
@@ -15,7 +18,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     font-family: Baloo-regular;
-    background-color: #dbeffc;
+    /* background-color: #dbeffc; */
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -47,7 +50,6 @@ body{
     border-radius: 50%;
     height: 359px;
     width: 359px;
-    margin: 20px;
     background-image: url(/assets/images/perfil.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,6 +63,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
 }
 
     .section-part{
@@ -83,6 +86,7 @@ body{
 
     .description{
         font-size: 1.5em;
+        margin: 10px 0;
     }
 
     .footer{
@@ -94,11 +98,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #CCCCCC;
+    /* border: 1px solid #CCCCCC; */
     padding: 20px;
-    padding-top: 80px;
+    padding-top: 200px;
     width: 100%;
-    background-color: #E5EEF4;
+    /* background-color: #E5EEF4; */
     color: #707070;
 }
 
@@ -129,6 +133,11 @@ body{
     .item{
         margin-bottom: 10px;
         font-size: 25px;
+    }
+
+    .item a{
+        text-decoration: underline;
+        color: #707070;
     }
 
 
